@@ -1,0 +1,179 @@
+[
+  {
+    "url": "https://www.idfcfirstbank.com",
+    "timestamp": "2025-09-13T19:39:03.341896",
+    "domain_analysis": {
+      "test_domain": "www.idfcfirstbank.com",
+      "domain_components": {
+        "full_domain": "www.idfcfirstbank.com",
+        "subdomain": "www",
+        "domain_name": "idfcfirstbank",
+        "tld": "com",
+        "path": ""
+      },
+      "similarities": {
+        "sbi": 0.2205128205128205,
+        "idfc": 1.0,
+        "hdfc": 0.5620879120879121,
+        "icici": 0.5620879120879121,
+        "axis": 0.5064102564102565
+      },
+      "detailed_similarities": {
+        "sbi": {
+          "full_domain": 0.33333333333333337,
+          "domain_name": 0.15384615384615385,
+          "subdomain": 1.0,
+          "common_substring": 0.07692307692307693
+        },
+        "idfc": {
+          "full_domain": 1.0,
+          "domain_name": 1.0,
+          "subdomain": 1.0,
+          "common_substring": 1.0
+        },
+        "hdfc": {
+          "full_domain": 0.7142857142857143,
+          "domain_name": 0.5384615384615384,
+          "subdomain": 1.0,
+          "common_substring": 0.3076923076923077
+        },
+        "icici": {
+          "full_domain": 0.7142857142857143,
+          "domain_name": 0.5384615384615384,
+          "subdomain": 1.0,
+          "common_substring": 0.3076923076923077
+        },
+        "axis": {
+          "full_domain": 0.6666666666666667,
+          "domain_name": 0.46153846153846156,
+          "subdomain": 1.0,
+          "common_substring": 0.3076923076923077
+        }
+      },
+      "most_similar": "idfc",
+      "max_similarity": 1.0,
+      "warnings": [],
+      "suspicious_score": 0.0,
+      "timestamp": "2025-09-13T19:38:56.826967",
+      "analysis_method": "advanced_domain_analysis"
+    },
+    "image_analysis": {
+      "similarities": {
+        "sbi": {
+          "best_similarity": 0.6192885011243607,
+          "best_type": "_elements",
+          "all_similarities": {
+            "_main": {
+              "feature_similarity": 0.7413972616195679,
+              "structural_similarity": 0.40311244670888946,
+              "overall_similarity": 0.5722548541642287
+            },
+            "_login": {
+              "feature_similarity": 0.5945931673049927,
+              "structural_similarity": 0.49844767681283997,
+              "overall_similarity": 0.5465204220589164
+            },
+            "_elements": {
+              "feature_similarity": 0.7230005264282227,
+              "structural_similarity": 0.5155764758204988,
+              "overall_similarity": 0.6192885011243607
+            }
+          }
+        },
+        "idfc": {
+          "best_similarity": 0.9991316552426873,
+          "best_type": "_main",
+          "all_similarities": {
+            "_main": {
+              "feature_similarity": 0.9999557733535767,
+              "structural_similarity": 0.998307537131798,
+              "overall_similarity": 0.9991316552426873
+            },
+            "_login": {
+              "feature_similarity": 0,
+              "structural_similarity": 0,
+              "overall_similarity": 0,
+              "error": "Screenshot not available"
+            },
+            "_elements": {
+              "feature_similarity": 0.7061982154846191,
+              "structural_similarity": 0.38611583516504927,
+              "overall_similarity": 0.5461570253248342
+            }
+          }
+        },
+        "hdfc": {
+          "best_similarity": 0.6048537678261513,
+          "best_type": "_elements",
+          "all_similarities": {
+            "_main": {
+              "feature_similarity": 0.7705311179161072,
+              "structural_similarity": 0.40105434490227676,
+              "overall_similarity": 0.585792731409192
+            },
+            "_login": {
+              "feature_similarity": 0,
+              "structural_similarity": 0,
+              "overall_similarity": 0,
+              "error": "Screenshot not available"
+            },
+            "_elements": {
+              "feature_similarity": 0.7698835134506226,
+              "structural_similarity": 0.4398240222016801,
+              "overall_similarity": 0.6048537678261513
+            }
+          }
+        },
+        "icici": {
+          "best_similarity": 0.6299965810683954,
+          "best_type": "_main",
+          "all_similarities": {
+            "_main": {
+              "feature_similarity": 0.7936118841171265,
+              "structural_similarity": 0.46638127801966445,
+              "overall_similarity": 0.6299965810683954
+            },
+            "_login": {
+              "feature_similarity": 0,
+              "structural_similarity": 0,
+              "overall_similarity": 0,
+              "error": "Screenshot not available"
+            },
+            "_elements": {
+              "feature_similarity": 0.6114916801452637,
+              "structural_similarity": 0.49649032978526114,
+              "overall_similarity": 0.5539910049652624
+            }
+          }
+        },
+        "axis": {
+          "best_similarity": 0.6379654590872885,
+          "best_type": "_main",
+          "all_similarities": {
+            "_main": {
+              "feature_similarity": 0.8530209064483643,
+              "structural_similarity": 0.4229100117262127,
+              "overall_similarity": 0.6379654590872885
+            },
+            "_login": {
+              "feature_similarity": 0,
+              "structural_similarity": 0,
+              "overall_similarity": 0,
+              "error": "Screenshot not available"
+            },
+            "_elements": {
+              "feature_similarity": 0.7939802408218384,
+              "structural_similarity": 0.44365507150528205,
+              "overall_similarity": 0.6188176561635602
+            }
+          }
+        }
+      },
+      "features_extracted": true
+    },
+    "is_phishing": false,
+    "confidence": 0.4,
+    "target_bank": "idfc",
+    "target_bank_name": "IDFC First Bank"
+  }
+]
